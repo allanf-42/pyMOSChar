@@ -261,7 +261,7 @@ def genDB():
     elif (simulator == "spectre"):
         genNetlistSpectre()
     else:
-        print "ERROR: Invalid/Unsupported simulator specified"
+        print(r"ERROR: Invalid/Unsupported simulator specified")
         sys.exit(0)
 
     progTotal = len(mosLengths)*len(vsb)
